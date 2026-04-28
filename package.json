@@ -1,6 +1,6 @@
 {
   "name": "@calven/leaflet-geoman-free",
-  "version": "2.11.4-calven.0",
+  "version": "2.11.4-calven.1",
   "publishConfig": {
     "registry": "https://us-west1-npm.pkg.dev/cal-global-artifacts-ops/npm/"
   },
