@@ -59,6 +59,7 @@
     "leaflet": "^1.2.0"
   },
   "scripts": {
+    "artifact-registry-login": "cp .npmrc.template .npmrc && npx google-artifactregistry-auth --repo-config=./.npmrc --credential-config=./.npmrc",
     "start": "npm run dev",
     "dev": "webpack --config=webpack.dev.js",
     "test": "cypress run",
